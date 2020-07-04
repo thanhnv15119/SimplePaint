@@ -10,7 +10,8 @@ This is a simple console Paint have few function:
 |B x y c        | Fill the entire area connected to (x,y) with "colour" c. The behaviour of this is the same as that of the "bucket fill" tool in paint programs.|
 |Q               |Quit the program.|
 
-##Config
+## Config
+
 Config in AppConstant file:
 
 |Property 		    |Description |
@@ -19,7 +20,8 @@ Config in AppConstant file:
 |HORIZONTAL_EDGE_CHARACTER  | Top and bottom edges of canvas fill with this char property.|
 |VERTICAL_EDGE_CHARACTER  | Side edges of canvas fill with this char property.|
 
-##Example 
+
+## Example 
 
   
   ````
@@ -68,7 +70,7 @@ enter command: C 20 4
   |    xccccccccccccccc|
   -----------------------
   ````
-  ##Build Environment
+  ## Build Environment
   
   + Java version 1.8.
   + Junit 4.12 for test.
